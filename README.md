@@ -96,7 +96,8 @@ Our main contributions are summarized as follows.
         SOTS: [click here to download](https://sites.google.com/view/reside-dehaze-datasets/reside-v0?authuser=0)
         
     2. Models：[click here to download](https://drive.google.com/drive/folders/1iPeD7KxFmG_148YHY9YqwOF7lFzVqnza?usp=sharing)
-    3. Res2Net weight：[click here to download](https://drive.google.com/drive/folders/1087h2I14YmeGZ-1eWSp-8yGgNrdoV4Yt?usp=drive_link)
+    
+    3. Res2Net weight：[click here to download](https://drive.google.com/drive/folders/1N2Fl5b7t20p3OuG1D9zn8qfdjaeHhcA3?usp=sharing)
     
 3. Run eval
     
