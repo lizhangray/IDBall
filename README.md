@@ -67,15 +67,15 @@ Our main contributions are summarized as follows.
                 |- test_low
             |- GoPro
                 |- test
-                          |- GOPR0384_11_00
-                                  |- blur
-                                  |- blur_gamma
-                                    |- sharp
-                          ...
-                  |- SOTS
+                    |- GOPR0384_11_00
+                        |- blur
+                        |- blur_gamma
+                        |- sharp
+                    ...
+            |- SOTS
                 |- outdoor
-                        |- gt
-                        |- hazy          
+                    |- gt
+                    |- hazy          
         |- model
             |- ACDC_night-025.pth
             |- ACDC_night-05.pth
