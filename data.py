@@ -251,7 +251,7 @@ class EvalData_GoPro_025(data.Dataset):
             for filename in common_filenames:
                 self.blur_image_paths.append(os.path.join(blur_dir, filename)) 
                 self.sharp_image_paths.append(os.path.join(sharp_dir, filename)) 
-                self.image_names.append(filename) 
+                self.image_names.append(subdir_name+"_"+filename) 
 
 
     def generate_scale_label(self, input_img):

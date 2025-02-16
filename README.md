@@ -114,3 +114,76 @@ Our main contributions are summarized as follows.
     - `Deblur-GoPro-025`: Indicates performing the **deblurring** task, the model was trained on the **GoPro** dataset, and the input images are **4x downsampled** images.
     
 4. The results are saved in the "output" folder.
+
+# **Visual Examples**
+
+To intuitively demonstrate the image enhancement capabilities of the IDB framework across different tasks, we present the following before-and-after image comparisons.
+
+## Dehazing
+
+This section showcases the performance of the IDB framework on the dehazing task.  Below, you can see a side-by-side comparison of the original hazy image (4x downsampled) and the dehazed image reconstructed by the IDB framework.  Observe how the IDB framework effectively removes haze, restoring clarity and color.
+
+<center>
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./assets/SOTS-outdoor-0143_1_0.2-4xdownsampling.jpg" alt="Dehazing - Original Image" width="400">
+        <figcaption>Original Image (4x Downsampled)</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./assets/SOTS-outdoor-0143_1_0.2-rebuild.jpg" alt="Dehazing - Reconstructed Image" width="400">
+        <figcaption>Reconstructed Image (IDB Framework)</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+</center>
+
+## Deblurring
+
+This section demonstrates the effectiveness of the IDB framework in the deblurring task.  The comparison below shows the original blurred image (4x downsampled) alongside the deblurred image reconstructed by the IDB framework.  Notice the IDB framework effectively reduces motion blur, resulting in sharper image details.
+
+<center>
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./assets/GOPR0410_11_00_000153_4xdownsampling.png" alt="Deblurring - Original Image" width="400">
+        <figcaption>Original Image (4x Downsampled)</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./assets/GOPR0410_11_00_000153_rebuild.png" alt="Deblurring - Reconstructed Image" width="400">
+        <figcaption>Reconstructed Image (IDB Framework)</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+</center>
+
+## Low-Light Enhancement
+
+This section illustrates the performance of the IDB framework in the low-light enhancement task.  Presented below is a side-by-side view of the original low-light image (4x downsampled) and the enhanced image produced by the IDB framework.  See how the IDB framework significantly increases brightness in low-light conditions while preserving details and color.
+
+<center>
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./assets/GOPR0364_frame_001003_rgb_ref_anon_4xdownsampling.png" alt="Low-Light Enhancement - Original Image" width="400">
+        <figcaption>Original Image (4x Downsampled)</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./assets/GOPR0364_frame_001003_rgb_ref_anon_rebuild.png" alt="Low-Light Enhancement - Reconstructed Image" width="400">
+        <figcaption>Reconstructed Image (IDB Framework)</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+</center>
